@@ -1,0 +1,99 @@
+Day 1
+Introduction
+-What is a microcontroller
+-Introducing Arduino
+-Physical Computing?
+-Artisitc examples and discussion.
+
+Arduino in depth
+-Tour of the Arduino hardware
+-The Arduino programming environment
+
+Excercise 1
+-Introduction to electricity
+	-Hello LED
+	-Tour of the breadboard
+	-The resistor
+	-Current and voltage
+-Your first circuit!
+
+Excercise 2
+-Hello world Arduino(blinking an LED)
+-Build circuit and upload program
+-Code step by step
+	Variation 1
+	-random delay
+Summary of digital output.
+
+Excercise 3
+-Knight Rider/Cylon
+	-Program 1 the long way around
+	-Program 2 effiency with for loops
+
+Day 2
+Warm up
+-Build a blink circuit to return to a known good state.
+
+Excercise 1 
+-Adding digital input with a button.
+-Build Circuit
+	-Program 1 Digital Input
+-Introducing analog output 
+	-Program 2 Fade or Blink
+
+Excercise 2
+-Analog in/Analog out
+-Introducing the potentiometer
+-The RGB LED
+-Pulse width modulation discussion
+-RGB color mixing.
+
+Sensor Dicussion
+
+Excercise 3
+-Introducing the servo
+-Contolling the servo with a knob
+
+Excercise 4
+-Serial communication(how to make devices talk)
+
+Quick run though of control structures.
+
+Day 3
+-Looking at artists who work with kinetics and discussion
+-Introduction to motion with the motor.
+-Driving high power loads with the transistor
+
+Excercise 1
+-Build Motor Circuit
+-Program 1 Motor Fader
+-Program 2 Serial motor control
+-Program 3 Motor Control with potentiometer
+
+Excercise 2
+-Talking to Processing
+-Program 1 GraphSerialArduino
+-Program 2 FlickrWebCamSerialArduino
+
+Excercise 3
+-Automating Communication with the Firmata firmware
+-Program 1 PrduinoPwmFirmata
+
+Demonstration of communication betwen arduino and a webpage with NodeJS in prep for week 6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
