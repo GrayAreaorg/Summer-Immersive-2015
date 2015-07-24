@@ -16,11 +16,5 @@ Works Refernced:
 * [Pipilan](https://cycling74.com/project/pipilan-gamelan-composition-real-time/) 
 * [Rose Engine](http://www.tedwiggin.com/Rose_Engine)
 
-
-
 ### Thursday, July 23rd (6-9pm)
-MSP(Audio) + Controllers (Arduino)
-
-
-### Saturday, July 27th (12-4pm)
-Jitter (Video)
+MSP(Audio) + Music Synthesis
