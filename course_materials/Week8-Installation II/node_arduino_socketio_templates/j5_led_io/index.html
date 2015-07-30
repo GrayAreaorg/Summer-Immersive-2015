@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <script src='//code.jquery.com/jquery-1.7.2.min.js'></script>
+    <script src='//localhost:3000/socket.io/socket.io.js'></script>
+    <script>
+    	var socket = io.connect('//localhost:3000');
+    	socket.on('data', function(data) {
+                console.log(data);
+                $('#messages').text(data.val);
+            });
+    	socket.on('error', function() { console.error(arguments) });
+        socket.on('message', function() { console.log(arguments) });
+
+    </script>
+</head>
+<body>
+<h1 id='messages'></h1>
+
+
+</body>
+</html>

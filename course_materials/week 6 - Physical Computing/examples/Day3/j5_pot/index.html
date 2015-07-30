@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src='//code.jquery.com/jquery-1.7.2.min.js'></script>
+    <script src='//localhost:3000/socket.io/socket.io.js'></script>
+
+    <title></title>
+    <style>
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700&subset=latin,latin-ext);
+html {
+  background:#000;
+}
+body {
+    background: white url(http://res.cloudinary.com/beeyotch/image/upload/v1427126291/qFsvigd_jwaw4t
+);
+      
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    
+     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+    </style>
+</head>
+
+<body>
+    <script>
+
+    var socket = io.connect('//localhost:3000');
+
+    socket.on('welcome', function(data) {
+        $('#messages').append('<li>' + data.message + '</li>');
+
+        socket.emit('i am client', {
+            data: 'foo!'
+        });
+    });
+    socket.on('tweet', function(data) {
+        console.log(data);
+        $('#tweet').text(data.message);
+        dist = 100;
+        setTimeout(setDist, 1000);
+    });
+    socket.on('error', function() {
+        console.error(arguments)
+    });
+    socket.on('message', function() {
+        console.log(arguments)
+    });
+
+    </script>
+
+<p id="tweet"></p>
+
+
+
+
+</body>
+
+</html>

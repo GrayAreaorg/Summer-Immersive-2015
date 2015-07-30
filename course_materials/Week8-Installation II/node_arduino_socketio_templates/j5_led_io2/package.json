@@ -1,0 +1,10 @@
+{
+  "name": "socket-chat-example",
+  "version": "0.0.1",
+  "description": "my first socket.io app",
+  "dependencies": {
+    "express": "4.10.2",
+    "johnny-five": "^0.8.69",
+    "socket.io": "1.2.0"
+  }
+}

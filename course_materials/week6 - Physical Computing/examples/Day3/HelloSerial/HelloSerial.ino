@@ -15,6 +15,6 @@ void setup()                    // run once, when the sketch starts
 
 void loop()                       // run over and over again
 {
-  Serial.println("Hello world!");                                // do nothing!
+  Serial.println("Hello class!");                                // do nothing!
 }
 

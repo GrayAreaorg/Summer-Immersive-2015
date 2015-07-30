@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <script src='//code.jquery.com/jquery-1.7.2.min.js'></script>
+    <script src='//localhost:3000/socket.io/socket.io.js'></script>
+    <script>
+    	var socket = io.connect('//localhost:3000');
+    	socket.on('data', function(data) {
+                console.log(data);
+                $('#messages').text(data.val);
+                $('circle[id="mover"]').attr('cx', data.val);
+            });
+    	socket.on('error', function() { console.error(arguments) });
+        socket.on('message', function() { console.log(arguments) });
+
+    </script>
+</head>
+<body>
+<h1 id='messages'></h1>
+<svg width="1050" height="1050">
+  <circle id="mover" cx="200" cy="200" r="40" stroke="green" stroke-width="4" fill="yellow" />
+</svg>
+
+</body>
+</html>
+
