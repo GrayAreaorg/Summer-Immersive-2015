@@ -6,16 +6,31 @@
 
 * * *
 
+* * *
 
-Day 1
+
 
 # What is projection mapping?
 
 * [http://en.wikipedia.org/wiki/Projection_mapping](http://en.wikipedia.org/wiki/Projection_mapping)
 
+* * *
+
+* * *
+
+* * *
+
+* * *
+
+
+
+Day 1
+
 # Welcome to projection mapping
 
-5/26/2015
+8/11/2015
+
+
 
 * [https://vimeo.com/43385747](https://vimeo.com/43385747) (Dane Luttik - Projection Mapping short documentary)
 
@@ -147,7 +162,7 @@ Day 1
 
     * The corners of a rectangle act as anchor points for rendering a texture onto it properly.  TopLeft (0,0) of one graphic *always* relates to TopLeft (0,0) of another graphic
 
-**( Processing tutorial: "quad_map_simple" )**
+**( Processing tutorial: "Processing/texture_map_simple" )**
 
 # Try it yourself
 
@@ -161,18 +176,37 @@ Day 1
 
 # Quad mapping with multiple quads
 
-**( Processing tutorial: "quad_map_multiple_surface" )**
+* You can multiply this easily by adding more CornerPinSurface(s), PGraphics, and animations (Movie)
+
+* This works for a small number of surfaces, but quickly gets unmanagable - > 10 would be crazy
+
+* Use Arrays when working with a lot of surfaces
+
+**( Processing tutorial: "Processing/texture_map_multiple_surface" )**
 
 # Try it yourself
 
+* Go back to the same object you've been using and try to cover more surfaces, or complex shapes, using multiple quads
+
+* Try multiple objects with multiple quads
+
 * * *
+
+* * *
+
+* * *
+
+* * *
+
 
 
 Day 2
 
 # Quads and Masks
 
-5/28/2015
+8/13/2015
+
+
 
 # Recap of what quad mapping is
 
@@ -246,8 +280,16 @@ Day 2
 
 * * *
 
+* * *
+
+* * *
+
+* * *
+
 
 Day 3
 
 # Work session!
+
+8/15/2015
 
