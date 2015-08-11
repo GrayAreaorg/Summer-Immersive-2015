@@ -6,16 +6,22 @@
 
 * * *
 
-
-Day 1
+* * *
 
 # What is projection mapping?
 
 * [http://en.wikipedia.org/wiki/Projection_mapping](http://en.wikipedia.org/wiki/Projection_mapping)
 
+* * *
+
+* * *
+
+
+Day 1
+
 # Welcome to projection mapping
 
-5/26/2015
+8/11/2015
 
 * [https://vimeo.com/43385747](https://vimeo.com/43385747) (Dane Luttik - Projection Mapping short documentary)
 
@@ -184,7 +190,7 @@ Day 2
 
 # Quads and Masks
 
-5/28/2015
+8/13/2015
 
 # Recap of what quad mapping is
 
@@ -264,4 +270,6 @@ Day 2
 Day 3
 
 # Work session!
+
+8/15/2015
 
