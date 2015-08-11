@@ -61,6 +61,8 @@ Day 1
 
     * (digital overlay)
 
+* [http://obscuradigital.com/work/sf-city-hall-centennial-projections/](http://obscuradigital.com/work/sf-city-hall-centennial-projections/) (Obscura Digital - San Francisco City Hall Centennial Celebration)
+
 * [https://vimeo.com/113000956](https://vimeo.com/113000956) (Emmy Curl - Come Closer)
 
     * Illusory
