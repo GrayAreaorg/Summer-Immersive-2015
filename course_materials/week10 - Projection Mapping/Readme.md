@@ -7,11 +7,8 @@
 * * *
 
 * * *
-<<<<<<< HEAD
 
 
-=======
->>>>>>> ee7d807cfb9e4488f80532a25e54941451f9ac8a
 
 # What is projection mapping?
 
@@ -22,20 +19,14 @@
 * * *
 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> ee7d807cfb9e4488f80532a25e54941451f9ac8a
 Day 1
 
 # Welcome to projection mapping
 
 8/11/2015
-<<<<<<< HEAD
 
 
-=======
->>>>>>> ee7d807cfb9e4488f80532a25e54941451f9ac8a
 
 * [https://vimeo.com/43385747](https://vimeo.com/43385747) (Dane Luttik - Projection Mapping short documentary)
 
@@ -205,11 +196,8 @@ Day 2
 # Quads and Masks
 
 8/13/2015
-<<<<<<< HEAD
 
 
-=======
->>>>>>> ee7d807cfb9e4488f80532a25e54941451f9ac8a
 
 # Recap of what quad mapping is
 
