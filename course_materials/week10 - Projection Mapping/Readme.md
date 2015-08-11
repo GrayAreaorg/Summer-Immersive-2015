@@ -147,7 +147,7 @@ Day 1
 
     * The corners of a rectangle act as anchor points for rendering a texture onto it properly.  TopLeft (0,0) of one graphic *always* relates to TopLeft (0,0) of another graphic
 
-**( Processing tutorial: "quad_map_simple" )**
+**( Processing tutorial: "Processing/texture_map_simple" )**
 
 # Try it yourself
 
@@ -161,9 +161,21 @@ Day 1
 
 # Quad mapping with multiple quads
 
-**( Processing tutorial: "quad_map_multiple_surface" )**
+* You can multiply this easily by adding more CornerPinSurface(s), PGraphics, and animations (Movie)
+
+* This works for a small number of surfaces, but quickly gets unmanagable - > 10 would be crazy
+
+* Use Arrays when working with a lot of surfaces
+
+**( Processing tutorial: "Processing/texture_map_multiple_surface" )**
 
 # Try it yourself
+
+* Go back to the same object you've been using and try to cover more surfaces, or complex shapes, using multiple quads
+
+* Try multiple objects with multiple quads
+
+* * *
 
 * * *
 
@@ -243,6 +255,8 @@ Day 2
 **( Processing tutorial: "shape_clipping_mask_multiple" )**
 
 * Multiple masked video
+
+* * *
 
 * * *
 
