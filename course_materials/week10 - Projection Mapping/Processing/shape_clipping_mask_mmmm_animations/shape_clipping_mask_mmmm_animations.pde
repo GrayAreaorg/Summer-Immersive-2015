@@ -7,7 +7,7 @@ import processing.video.*;
 
 int currMedia = 0;
 int[] numShapes = { 3, 6 }; //the number of shapes PER media file
-String[] medaiFiles = { "clip.mp4", "transit.mov" }; //the media file names
+String[] mediaFiles = { "clip.mp4", "transit.mov" }; //the media file names
 int numMedia = numShapes.length;
 
 
@@ -17,7 +17,7 @@ boolean calibrate = true;
 void setup(){
   size(800,600,P3D);
   for(int i=0; i<numMedia; i++){
-    clip[i] = new ClippingMask(this, medaiFiles[i], "clip"+i+".json", i, numShapes[i]);
+    clip[i] = new ClippingMask(this, mediaFiles[i], "clip"+i+".json", i, numShapes[i]);
   }
   smooth();
   
