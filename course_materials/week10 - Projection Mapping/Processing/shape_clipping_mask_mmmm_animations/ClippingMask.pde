@@ -71,6 +71,7 @@ class ClippingMask{
         if(calibrate){
           stroke(255,0,0);
           if(currShape == i && currMedia == id){
+            drawShapeOutline();
             strokeWeight(3);
           }
           else{
@@ -86,6 +87,16 @@ class ClippingMask{
         controlPoints[i].get(u).drawControlPoint();
       }
     }
+  }
+  
+  void drawShapeOutline(){
+    noFill();
+    beginShape();
+    for(int i=0;i<controlPoints[currShape].size();i++){
+      PVector p = controlPoints[currShape].get(i).point;
+      vertex(p.x, p.y, p.z);
+    }
+    endShape(CLOSE);
   }
   
   void addPointToShape(int id, float x, float y, float z){

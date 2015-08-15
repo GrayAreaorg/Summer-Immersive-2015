@@ -6,7 +6,7 @@ import processing.video.*;
 /***~***/
 
 int currMedia = 0;
-int[] numShapes = { 3, 4 }; //the number of shapes PER media file
+int[] numShapes = { 3, 6 }; //the number of shapes PER media file
 String[] medaiFiles = { "clip.mp4", "transit.mov" }; //the media file names
 int numMedia = numShapes.length;
 
